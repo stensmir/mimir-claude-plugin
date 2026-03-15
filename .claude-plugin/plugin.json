@@ -1,0 +1,10 @@
+{
+  "name": "mimir",
+  "version": "1.0.0",
+  "description": "Voice-to-text transcription with Mimir CLI — transcribe audio, manage ASR models, configure LLM post-processing",
+  "author": {
+    "name": "stensmir"
+  },
+  "repository": "https://github.com/stensmir/mimir-claude-plugin",
+  "homepage": "https://github.com/stensmir/mimir"
+}
