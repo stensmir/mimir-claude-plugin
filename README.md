@@ -1,11 +1,11 @@
 # Mimir Claude Code Plugin
 
-A [Claude Code](https://docs.anthropic.com/en/docs/claude-code) plugin for voice-to-text transcription using [Mimir](https://github.com/nickolay-foxdev/Mimir).
+A [Claude Code](https://docs.anthropic.com/en/docs/claude-code) plugin for voice-to-text transcription using [Mimir](https://github.com/stensmir/Mimir).
 
 ## Installation
 
 ```bash
-claude plugin add https://github.com/nickolay-foxdev/mimir-claude-plugin
+claude plugin add https://github.com/stensmir/mimir-claude-plugin
 ```
 
 ## Prerequisites
@@ -39,5 +39,5 @@ This plugin teaches Claude how to use the `mimir` CLI for:
 
 ## Links
 
-- [Mimir App](https://github.com/nickolay-foxdev/Mimir) — macOS voice dictation app
+- [Mimir App](https://github.com/stensmir/Mimir) — macOS voice dictation app
 - [Claude Code Plugins](https://docs.anthropic.com/en/docs/claude-code/plugins)
