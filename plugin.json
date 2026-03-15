@@ -1,0 +1,5 @@
+{
+  "name": "mimir",
+  "version": "0.1.0",
+  "description": "Voice-to-text transcription with Mimir CLI — transcribe audio, manage ASR models, configure LLM post-processing"
+}

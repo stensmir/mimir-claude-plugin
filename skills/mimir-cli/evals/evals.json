@@ -1,0 +1,23 @@
+{
+  "skill_name": "mimir-cli",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "переключи мне модель транскрипции с паракет на виспер медиум",
+      "expected_output": "Should run `mimir config set model_size medium` and explain the engine switch. May also show `mimir transcribe --engine whisper` for per-command use.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "настрой олламу для мимира, у меня стоит mistral:7b на дефолтном порту",
+      "expected_output": "Should run a series of `mimir config set` commands: llm.enabled true, llm.provider ollama, llm.endpoint http://localhost:11434, llm.model mistral:7b",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "какие модели для распознавания речи у меня скачаны?",
+      "expected_output": "Should run `mimir model list` and present the results showing which Whisper models are downloaded and Parakeet status",
+      "files": []
+    }
+  ]
+}
