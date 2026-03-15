@@ -1,0 +1,17 @@
+{
+  "name": "mimir-plugins",
+  "owner": {
+    "name": "stensmir"
+  },
+  "metadata": {
+    "description": "Mimir voice-to-text plugins for Claude Code"
+  },
+  "plugins": [
+    {
+      "name": "mimir",
+      "source": "./",
+      "description": "Voice-to-text transcription with Mimir CLI — transcribe audio, manage ASR models, configure LLM post-processing",
+      "version": "1.0.0"
+    }
+  ]
+}

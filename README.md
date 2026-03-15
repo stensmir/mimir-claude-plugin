@@ -5,7 +5,16 @@ A [Claude Code](https://docs.anthropic.com/en/docs/claude-code) plugin for voice
 ## Installation
 
 ```bash
-claude plugin add https://github.com/stensmir/mimir-claude-plugin
+# Step 1: Add the marketplace
+claude plugin marketplace add stensmir/mimir-claude-plugin
+
+# Step 2: Install the plugin
+claude plugin install mimir@mimir-plugins
+```
+
+Or for local development/testing:
+```bash
+claude --plugin-dir ./mimir-claude-plugin
 ```
 
 ## Prerequisites
